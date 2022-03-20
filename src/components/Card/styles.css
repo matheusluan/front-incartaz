@@ -1,0 +1,40 @@
+@media (max-width: 700px) { 
+
+    .card {
+        width: 245px;
+        height: 323px;
+        border-radius: 4px;
+        cursor: pointer;
+        box-shadow: rgba(64, 64, 65, 0.15) 1.95px 1.95px 2.6px;
+        background: no-repeat;
+        
+        background-size: 100%;
+        
+    }
+
+    .card img{
+        width: 245px;
+        height: 323px;
+        border-radius: 4px;
+    }
+}
+
+.card {
+    width: 330px;
+    height: 430px;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: rgba(64, 64, 65, 0.15) 1.95px 1.95px 2.6px;
+    background: no-repeat;
+    background-size: 100%;
+
+    transition: all .2s ease-in-out;
+    
+}
+.card:hover { transform: scale(1.1); }
+
+.card img{
+    width: 340px;
+    height: 430px;
+    border-radius: 4px;
+}

@@ -1,0 +1,19 @@
+@media (max-width: 575.98px) { 
+    .container_cards{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content:space-between ; 
+        gap: 25px;
+        width: 408px;
+    }
+ }
+
+.container_cards{
+    display: grid;
+    align-self: center;
+    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+    justify-content:space-between ; 
+    gap: 25px;
+    margin: 40px auto;
+}
+ 

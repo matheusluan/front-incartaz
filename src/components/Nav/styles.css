@@ -1,0 +1,27 @@
+@media (max-width: 575.98px) { 
+
+    .nav_container {
+        display: flex;        
+        justify-content: space-between;
+        
+    }
+
+    .nav_container span{
+        font-family: 'Nunito', Helvetica, Arial, sans-serif;
+        font-size: 1.5rem;
+        align-self: flex-end;
+    }
+
+}
+
+.nav_container {
+    display: flex;        
+    justify-content: space-between;
+    
+}
+
+.nav_container span{
+    font-family: 'Nunito', Helvetica, Arial, sans-serif;
+    font-size: 1.5rem;
+    align-self: flex-end;
+}

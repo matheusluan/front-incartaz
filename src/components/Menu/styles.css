@@ -1,0 +1,15 @@
+@media (max-width: 575.98px) { 
+
+    .menu_container {
+        display: flex;        
+        justify-content: space-between;
+        margin: 20px 0;
+    }
+}
+
+.menu_container {
+    display: flex;        
+    justify-content: space-between;
+    gap: 25px;
+    margin: 20px 0;
+}
